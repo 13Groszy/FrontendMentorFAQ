@@ -1,0 +1,141 @@
+*{
+    margin:0;
+    font-family: sans-serif;
+    font-size:12px;
+    font-weight: 100;
+    color:rgb(160, 160, 160);
+}
+body{
+    background: rgb(175,103,233);
+}
+.container{
+    width:85%;
+    background-color: #FFF;
+    margin-inline: auto;
+    margin-top:40%;
+    margin-bottom: 50%;
+    border-radius:20px;
+    min-height: 65vh;
+    -webkit-box-shadow: 0px 20px 20px 0px rgba(101,101,231,0.5);
+    box-shadow: 0px 20px 20px 0px rgba(101,101,231,0.5);
+}
+
+.FAQWrapper{
+    width:85%;
+    margin-inline: auto;
+}
+h1{
+    text-align: center;
+    padding-top:4em;
+    margin-bottom: 1em;
+    font-size: 2.5rem;
+    font-weight: 900;
+    color:#000;
+}
+
+hr {
+    background-color: lightgrey;
+    height: 1px;
+    border: 0;
+    margin:-1.5em auto 1.5em auto;
+}
+.split{
+    display:flex;
+    justify-content: space-between;
+}
+.arrow {
+    border: solid orange;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+.rotate{
+    transform:rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+}
+p{
+    margin-top:-2em;
+    margin-bottom: 3em;
+    width:90%;
+    display:none;
+    font-size:12px;
+}
+.background{
+    display:none;
+}
+h3{
+    font-weight: 300;
+    margin-bottom: 3em;
+    font-size: 13px;
+}
+.active{
+    font-weight: 500;
+    color: #000;
+}
+.room{
+    position: absolute;
+    width:90%;
+}
+.womanIllustration{
+    width:72%;
+    position: absolute;
+    margin: 0 14%;
+    top:-110px;
+}
+.box{
+    position: absolute;
+    width:28%;
+    top:-3.5rem;
+    left:3.5rem;
+}
+@media (min-width:768px) {
+    .container{
+        display:flex;
+        width:70%;
+    }
+    .illustration{
+        width:100%;
+        overflow:hidden;
+    }
+    .room{
+        width:100%;
+        position:relative
+    }
+    .background{
+        display:block;
+        width:90em;
+        position: absolute;
+        top:-28em;
+        left:-56em;
+    }
+    .overflow{
+        position: absolute;
+    }
+    .womanIllustration{
+        width:100%;
+        top:6em;
+        left:-14em;
+    }
+    .box{
+        width:14em;
+        height:14em;
+        top:19em;
+        left:-7em;
+    }
+    h1{
+        text-align: left;
+        padding-top: 2em;
+        font-size: 3rem;
+    }
+    h3{
+        font-size: 14px;
+    }
+    .FAQWrapper{
+        width:100%;
+    }
+    .question{
+        width:75%;
+    }
+}
