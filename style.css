@@ -11,9 +11,7 @@ body{
 .container{
     width:85%;
     background-color: #FFF;
-    margin-inline: auto;
-    margin-top:11%;
-    margin-bottom: 12%;
+    margin:35% auto;
     border-radius:20px;
     min-height: 65vh;
     -webkit-box-shadow: 0px 20px 20px 0px rgba(101,101,231,0.5);
@@ -94,6 +92,7 @@ h3{
     .container{
         display:flex;
         width:70%;
+        margin: 5% auto;
     }
     .illustration{
         width:100%;
