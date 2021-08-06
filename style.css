@@ -87,8 +87,8 @@ h3{
 .box{
     position: absolute;
     width:28%;
-    top:-3.5rem;
-    left:3.5rem;
+    top:9rem;
+    left:5rem;
 }
 @media (min-width:768px) {
     .container{
